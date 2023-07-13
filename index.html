@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지구 한 바퀴</title>
+
+    <link rel="stylesheet" href="main.css"> <!-- main.css 파일 css로 불러오기 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+
+<body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+        <div class="new">
+        </div>
+        <div>
+            <img src="img.jpg" alt="" class="img">
+
+        </div>
+        <div class="track">
+            <div id="trackD"></div>
+            <div id="trackF"></div>
+            <div id="trackJ"></div>
+            <div id="trackK"></div>
+
+            <div id="line"></div>
+
+                <div id="trackBtnD">D</div>
+                <div id="trackBtnF">F</div>
+                <div id="trackBtnJ">J</div>
+                <div id="trackBtnK">K</div>
+        </div>
+
+        <div id="combo">COMBO : 0</div>
+        <button id="start" onclick="start()">START</button>
+
+        <script src="songs/EARTH.js"></script> <!-- songs/fiesta.js 파일 변수로 불러오기 -->
+        <script src="main.js"></script> <!-- main.js 파일 js로 불러오기 -->
+</body>
+
+</html>
